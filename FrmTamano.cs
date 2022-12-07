@@ -24,6 +24,8 @@ namespace WinFormCaffenio
 
         private void picBoxTamanoChico_Click(object sender, EventArgs e)
         {
+            //se seleccion}o el tamaño chico
+            FrmPpal.prods[FrmPpal.contadorProd, 1] = "CH";
             //abrimos el de los extras
             FrmExtras frmExtra = new FrmExtras();
             frmExtra.Show();
